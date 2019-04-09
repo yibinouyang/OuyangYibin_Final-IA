@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rambla" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/popup.css"/>
 </head>
 <body id="mainBody">
         <h1 class="hidden">Title part</h1>
@@ -58,7 +59,7 @@
 
         <div id="talk">
             <h2 class="hidden">Come to talk us</h2>
-            <img src="images/new3.jpg" alt="pic">
+            <img id="popupImg" src="images/new3.jpg" alt="pic">
             <p>Guests are welcome! The TRAA meets every second Wednesday of each month. We always try to get the meetings started by 7:00pm so try to be there a few minutes beforehand. The venue is the Western Ontario Fish & Game Protective Association's clubhouse located just east of the Dearness Home on Southdale Road (East), on the North side of Southdale Road. The address is 790 Southdale Road East, London, Ontario. Note: Every now and then we have "off-site" meetings. For example, the July and August meetings are "fishing meetings" so we won't be at WOFGPA clubhouse. Stay on top of these changes by visiting this Web site often.</p>
         </div>
 
@@ -91,7 +92,23 @@
                     </ul></nav>
                 <div id="copyright">
                     <p>@copyright 2019 Traa</p></div>
-
+		<div class="popup" id="popup">
+			<div class="head">
+				<div class="xdiv" id="xdiv">X</div>
+			</div>
+			
+    		<form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name: (required)</label>
+                    <input type="text" required id="name" name="fullName" size="40" placeholder="Enter your name">
+                    
+                    <label for="email">Email: (require)</label>
+                    <input type="email" required id="email" size="40" placeholder="Enter your Email">
+                
+                    <label for="feedback">Feedback:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
+                    <input id="submit" type="submit" value="Submit"></div>
+            </form>
+    </div>
     <script src="js/main.js"></script>    
         </body>
     </html>

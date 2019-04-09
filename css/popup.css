@@ -1,0 +1,24 @@
+.popup{
+	width: 500px;
+	height: 350;
+	display: none;
+	position: absolute;
+	left: 30%;
+	top: 1000px;
+	border: 2px solid lightcoral;
+	background-color: #f7f7f7;
+}
+.xdiv{
+	float: right;
+	width: 12px;
+	height: 18px;
+	background-color: rgb(157, 117, 165);
+	
+}
+.xdiv:hover{cursor: pointer;}
+.head{
+	float: right;
+	width: 100%;
+	height: 18px;
+	background-color: #926D99;
+}

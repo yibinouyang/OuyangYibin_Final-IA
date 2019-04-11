@@ -4,9 +4,20 @@
 	margin:0 auto;
 	width: 750px;
 	height:1334px;
-	background-color: #F7F7F7;
+	background-image: url('../images/1.png');
 	}
-
+#mainBody1{
+	margin:0 auto;
+	width: 750px;
+	height:1334px;
+	background-image: url('../images/2.png');
+}
+#mainBody2{
+	margin:0 auto;
+	width: 750px;
+	height:1334px;
+	background-color: #f7f7f7;
+}
 #mainNav
 {
 	width: 750px;
@@ -31,12 +42,10 @@
 
 #mainNav ul li a
 {
-	color:palevioletred;
+	color:pink;
 	padding: 10px;
-	background-color:#F7F7F7 ;
-	font-size: 118x;
+	font-size: 15px;
 	font-family: 'Varela Round', sans-serif;
-		border-radius: 10px;
 }
 
 
@@ -67,10 +76,10 @@
 
 #endNav ul li a
 {
-	color:orange;
-	padding: 15px;
-	background-color:#5badad ;
-	font-size: 11px;
+	color:palevioletred;
+	padding: 10px;
+	background-color:#F7F7F7 ;
+	font-size: 118x;
 	font-family: 'Varela Round', sans-serif;
 		border-radius: 10px;
 }
@@ -81,6 +90,15 @@
 	color:orange;
 
 	border-radius: 3px;
+}
+.socialMedia{
+	display: none;
+}
+#copyRight p{
+	color: white;
+	max-width: 750px;
+	margin: auto;
+	margin-left: 230px;
 }
 .hidden{
 	display: none;
@@ -107,6 +125,7 @@ display: none;
 	flex-direction: row;
 	overflow:hidden; 
 	margin-left: 50px;
+
 
 }
 #text img{
@@ -181,7 +200,7 @@ display: none;
 	margin-top: 60px;
 }
 #aboutText1 p{
-	color: #415f6d;
+	color: #fff;
 	font-size: 12px;
 	margin-top:0px;
 	text-indent:20px;
@@ -329,18 +348,18 @@ margin-top: 30px;
 #projects h2{
 	padding-left: 140px;
 	font-size: 23px;
-	color: #67755a;
+	color: black;
 	margin-top: 30px;
 }
 #projects h3{
 	padding-left: 220px;
 	font-size: 23px;
-	color: #67755a;
+	color: black;
 	margin-top: 40px;
 }
 #projects p{
 	font-size: 18px;
-	color: #266052;
+	color: white;
 	margin-top: 20px;
 	width: 660px;
 	margin-left: 20px;
@@ -359,7 +378,7 @@ margin-top: 30px;
 }
 
 #salmon p{
-color: #1c638e;
+color:pink;
 display: flex;
 font-size: 18px;
 font-family: 'Varela Round', sans-serif;
@@ -382,7 +401,7 @@ margin-top: 20px;
 
 }
 #trout p{
-color: #1c638e;
+color: pink;
 display: flex;
 font-size: 20px;
 font-family: 'Varela Round', sans-serif;
@@ -921,8 +940,8 @@ display: none;
 	-ms-transform: scale(1.1);
 	-o-transform: scale(1.1);
 }
-
-
+.icon{
+	display: none;}
 
 
 
@@ -939,6 +958,7 @@ display: none;
 margin:0 auto;
 width: 1080px;
 height:1200px;
+background-image: none;
 background-color: 	#F7F7F7;
 }
 
@@ -1002,6 +1022,7 @@ background-color: 	#F7F7F7;
 
 	border-radius: 3px;
 }
+
 #endNav
 {
 	width: 2000px;
@@ -1036,13 +1057,59 @@ background-color: 	#F7F7F7;
 	color: pink;
 	background: #7C916E;
 }
-
-#copyright p{
-	font-size: 12px;
-	color: grey;
-	margin-top: 50px;
-	margin-left: 450px;
+.icon{
+	display: flex;
+	flex-direction: row;
+	width: 1080px;
+	margin-top: 80px;
+	margin-left: 230px;
 }
+.icon img{
+	width: 130px;
+	height: 50px;
+	margin-left: 30px;
+}
+.socialMedia
+{
+	margin-left: 400px;
+	height: 45px;
+	margin-top: 50px;
+	margin-right: 10px;
+}
+
+#iconNav
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+#iconNav li
+{
+	display: inline;
+	margin-right: 10px;
+}
+
+#iconNav li a 
+{
+	filter: grayscale(100%);
+}
+
+#iconNav li a:hover
+{
+	filter: grayscale(0%);
+}
+
+#copyRight p
+{
+	margin-top: 40px;
+	height: 100px;
+	margin-left: 400px;
+	width: 310px;
+	color: #51686b;
+
+
+}
+
 #bodyPart
 {
 	margin-top: 60px;
@@ -1119,7 +1186,7 @@ background-color: 	#F7F7F7;
 	padding-left: 10px;
 	height: 250px;
 	font-family: 'Indie Flower', cursive;
-	margin-left: 100px;
+	margin-left: 80px;
 	margin-right: 100px;
 }
 

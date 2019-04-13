@@ -21,9 +21,11 @@
 #mainNav
 {
 	width: 750px;
-	height: 50px;
+	height: auto;
 	margin-top:20px;
 	margin-left: 0px;
+	display: none;
+	text-align: center;
 }
 
 #mainNav ul
@@ -34,10 +36,9 @@
 
 #mainNav ul li
 {
-	display: inline;
 	font-size: 15px;
 	margin-left: 8px;
-
+	padding-bottom: 8px;
 }
 
 #mainNav ul li a
@@ -51,6 +52,8 @@
 
 #mainNav ul li a:hover{
 
+}#main111{
+	display: none;
 }
 #endNav
 {
@@ -992,7 +995,14 @@ background-color: 	#F7F7F7;
 	margin-top: 20px;
 
 }
-#mainNav
+#logopart #slide_button{
+	display: none;
+}
+#main111{
+	display: flex;
+	flex-direction: row;
+}
+#main111
 {
 	width: 2000px;
 	height: 50px;
@@ -1000,20 +1010,20 @@ background-color: 	#F7F7F7;
 	margin-left: 70px;
 }
 
-#mainNav ul
+#main111 ul
 {
 	list-style-type: none;
 	padding: 30px;
 }
 
-#mainNav ul li
+#main111 ul li
 {
 	display: inline;
 	font-size: 20px;
 	margin-left: 20px;
 }
 
-#mainNav ul li a
+#main111 ul li a
 {
 	color: grey;
 	padding: 15px;
@@ -1023,7 +1033,7 @@ background-color: 	#F7F7F7;
 }
 
 
-#mainNav ul li a:hover{
+#main111 ul li a:hover{
 	background:#86a025;
 	color:orange;
 

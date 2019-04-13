@@ -10,7 +10,7 @@
 	margin:0 auto;
 	width: 750px;
 	height:1334px;
-	background-image: url('../images/2.png');
+	background-color: #F7F7F7;
 }
 #mainBody2{
 	margin:0 auto;
@@ -200,11 +200,11 @@ display: none;
 	margin-top: 60px;
 }
 #aboutText1 p{
-	color: #fff;
-	font-size: 12px;
+	color: green;
+	font-size: 15px;
 	margin-top:0px;
 	text-indent:20px;
-	line-height: 30px;
+	line-height: 20px;
 	width: 600px;
 	margin-left: 10px;
 }
@@ -321,11 +321,11 @@ display: none;
 	display: flex;
 	flex-direction: column;
 	width: 500px;
-	height: 500px;
+	height: 350px;
 }
 #chart1 img{
 width: 500px;
-height: 220px;
+height: 320px;
 margin-left: 80px;
 margin-top: 30px;
 }
@@ -359,7 +359,7 @@ margin-top: 30px;
 }
 #projects p{
 	font-size: 18px;
-	color: white;
+	color: blue;
 	margin-top: 20px;
 	width: 660px;
 	margin-left: 20px;
@@ -961,6 +961,13 @@ height:1200px;
 background-image: none;
 background-color: 	#F7F7F7;
 }
+#mainBody2{
+margin:0 auto;
+width: 1080px;
+height:1200px;
+background-image: none;
+background-color: 	#F7F7F7;
+}
 
 
 .hidden
@@ -1372,7 +1379,6 @@ color: #0000;
 #projects{
 	margin-top: 20px;
 }
-
 #projects h2{
 	padding-left: 300px;
 	font-size: 23px;
@@ -1904,7 +1910,7 @@ margin-top: 15px;
 }
 #chart11 img{
 	width: 500px;
-	height: 250px;
+	height: 330px;
 	display:flex ;
 	margin-left: 30px;
 }
@@ -2028,12 +2034,14 @@ input, textarea
 	display: flex;
 	flex-direction: row;
 	height: 240px;
+	max-width: 1080px;
 }
 #chart1 img{
-	margin-left: 20px;
+	text-align: center;
 	margin-top: 10px;
-	width: 500px;
-	height: 200px;
+	margin-left: 220px;
+	width: 580px;
+	height: 300px;
 }
 
 

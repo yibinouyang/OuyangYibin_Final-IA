@@ -2,28 +2,27 @@
 /* CSS Document */
 #mainBody{
 	margin:0 auto;
-	width: 750px;
+	width: 550px;
 	height:1334px;
-	background-image: url('../images/1.png');
+	background-color: #e4fafc;
 	}
 #mainBody1{
 	margin:0 auto;
-	width: 750px;
+	width: 550px;
 	height:1334px;
 	background-color: #F7F7F7;
 }
 #mainBody2{
 	margin:0 auto;
-	width: 750px;
+	width: 550px;
 	height:1334px;
 	background-color: #f7f7f7;
 }
 #mainNav
 {
-	width: 750px;
+	max-width: 550px;
+	text-align: center;
 	height: auto;
-	margin-top:20px;
-	margin-left: 0px;
 	display: none;
 	text-align: center;
 }
@@ -45,7 +44,7 @@
 {
 	color:pink;
 	padding: 10px;
-	font-size: 15px;
+	font-size: 20px;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -57,7 +56,7 @@
 }
 #endNav
 {
-	width: 750px;
+	width: 550px;
 	height: 50px;
 	margin-top:20px;
 	margin-left: 0px;
@@ -66,25 +65,24 @@
 #endNav ul
 {
 	list-style-type: none;
-	padding: 10px;
+	padding: 7px;
 }
 
 #endNav ul li
 {
 	display: inline;
 	font-size: 10px;
-	margin-left: 25px;
+	margin-left: 15px;
 
 }
 
 #endNav ul li a
 {
 	color:palevioletred;
-	padding: 10px;
-	background-color:#F7F7F7 ;
-	font-size: 118x;
+	padding: 7px;
+	background-color:#e4fafc ;
+	font-size: 8px;
 	font-family: 'Varela Round', sans-serif;
-		border-radius: 10px;
 }
 
 
@@ -99,7 +97,7 @@
 }
 #copyRight p{
 	color: white;
-	max-width: 750px;
+	max-width: 550px;
 	margin: auto;
 	margin-left: 230px;
 }
@@ -127,7 +125,7 @@ display: none;
 	display: flex;
 	flex-direction: row;
 	overflow:hidden; 
-	margin-left: 50px;
+	margin-left: 20px;
 
 
 }
@@ -140,19 +138,19 @@ display: none;
 #mainPart{
 	display: flex;
 	flex-direction: row;
-	width: 750px;
+	width: 550px;
 	margin-top: 20px;
 }
 #mainPart img{
 	width: 134px;
 	height: 150px;
-	margin-left: 60px;
+	margin-left: 30px;
 }
 
 #mainPartpara p{
 	font-size: 20px;
 	color:#416808;
-	margin-left: 240px;
+	margin-left: 180px;
 	font-family: 'Rambla', sans-serif;
 	margin-top: 50px;
 	border-bottom: solid #8e8e8e 1px;
@@ -161,7 +159,7 @@ display: none;
 #Businesses h2{
 	display: flex;
 	flex-direction: column;
-	margin-left: 70px;
+	margin-left: 30px;
 	font-size: 25px;
 	font-family: 'Rambla', sans-serif;
 	margin-top: 20px;
@@ -170,11 +168,11 @@ display: none;
 #Businesses img{
 	width: 130px;
 	height: 130px;
-	margin-left: 250px;
+	margin-left: 200px;
 	margin-top: 30px;
 }
 #mainFooter img{
-	width: 750px;
+	width: 550px;
 	height: 70px;
 	margin-top: 20px;
 }
@@ -188,14 +186,14 @@ display: none;
 	height: 340px;
 	padding-left: 10px;
 	margin-top: 30px;
-	width: 750px;
+	width: 550px;
 }
 
 #aboutText h3{
-	font-size: 17px;
+	font-size: 13px;
 	color: #272724;
 	margin-left: 10px;
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 #aboutText1{
@@ -208,8 +206,8 @@ display: none;
 	margin-top:0px;
 	text-indent:20px;
 	line-height: 20px;
-	width: 600px;
-	margin-left: 10px;
+	width: 460px;
+	margin-left: 30px;
 }
 
 #More
@@ -221,7 +219,7 @@ display: none;
 	padding-bottom: 40px;
 	padding-left: 10px;
 	height: 890px;
-	width: 750px;
+	width: 550px;
 }
 
 #about1 p{
@@ -231,7 +229,7 @@ display: none;
 	width: 480px;
 	font-size: 20px;
 	margin-top: 20px;
-	margin-left: 130px;
+	margin-left: 30px;
 }
 
 
@@ -240,7 +238,7 @@ display: none;
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	margin-left: 160px;
+	margin-left: 60px;
 	margin-top: 20px;
 
 }
@@ -251,7 +249,7 @@ display: none;
 	width: 480px;
 	font-size: 20px;
 	margin-top: 20px;
-	margin-left: 130px;
+	margin-left: 30px;
 }
 
 #about2 img{
@@ -259,7 +257,7 @@ display: none;
 	height: auto;
 	display: flex;
 	flex-direction: column;
-	margin-left: 160px;
+	margin-left: 60px;
 	margin-top: 20px;
 
 }
@@ -267,7 +265,7 @@ display: none;
 #mainFooter{
 	width: 1080px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
   	justify-content: space-between;
 	padding-bottom: 0px;
 	margin-left: 20px;
@@ -278,7 +276,7 @@ display: none;
 	color: #5D754E;
 	display: flex;
 	font-size: 15px;
-	margin-left: 0px;
+	margin-left: 70px;
 	width: 300px;
 	margin-top: 20px;
 }
@@ -287,13 +285,13 @@ display: none;
 	color: green;
 	display: flex;
 	font-size: 25px;
-	margin-top: -30px;
-	margin-left: 50px;
+	margin-top: 0px;
+	margin-left: 90px;
 }
 
 #exe{
 	width: 300px;
-	height: 220px;
+	height: 140px;
 	display: inline-block;
 
 }
@@ -301,21 +299,21 @@ display: none;
 	color: green;
 	display: flex;
 	font-size: 20px;
-	margin-left: -250px;
-	margin-top: -30px;
+	margin-left: 90px;
+	margin-top: 0px;
 }
 #cha p{
 	color: #5D754E;
 	display:flex;
 	font-size: 15px;
-	margin-left: -230px;
+	margin-left: 70px;
 	width: 300px;
 	margin-top: 20px;
 }
 
 #cha{
 	width: 480px;
-	height: 220px;
+	height: 130px;
 	display: inline-block;
 
 }
@@ -327,9 +325,9 @@ display: none;
 	height: 350px;
 }
 #chart1 img{
-width: 500px;
+width: 450px;
 height: 320px;
-margin-left: 80px;
+margin-left: 50px;
 margin-top: 30px;
 }
 #intro p{
@@ -344,27 +342,24 @@ margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 }
-#chart1 {
-	display: f
-}
 
 #projects h2{
-	padding-left: 140px;
+	padding-left: 30px;
 	font-size: 23px;
 	color: black;
 	margin-top: 30px;
 }
 #projects h3{
-	padding-left: 220px;
+	padding-left: 180px;
 	font-size: 23px;
 	color: black;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 #projects p{
 	font-size: 18px;
 	color: blue;
 	margin-top: 20px;
-	width: 660px;
+	width: 500px;
 	margin-left: 20px;
 }
 #program{
@@ -385,8 +380,8 @@ color:pink;
 display: flex;
 font-size: 18px;
 font-family: 'Varela Round', sans-serif;
-margin-left: 80px;
-width: 600px;
+margin-left: 50px;
+width: 500px;
 margin-top: 20px;
 }
 
@@ -400,7 +395,7 @@ margin-top: 20px;
 	width: 100%;
 	height: auto;
 	display: inline-block;
-	margin-left: 150px; 
+	margin-left: 50px; 
 
 }
 #trout p{
@@ -408,15 +403,15 @@ color: pink;
 display: flex;
 font-size: 20px;
 font-family: 'Varela Round', sans-serif;
-margin-left: 80px;
-width: 600px;
+margin-left: 10px;
+width: 500px;
 margin-top: 10px;
 	 
 }
 
 #trout{
 	width: 500px;
-	height: 346px;
+	height: 366px;
 	display: inline-block;
 }
 
@@ -424,32 +419,32 @@ margin-top: 10px;
 	width: 90%;
 	height: auto;
 	display: inline-block;
-	margin-left: 150px;
+	margin-left: 50px;
 	margin-top: -20px;
 }
 
 #newpic{
-	width: 750px;
+	width: 550px;
 
 }
 #newpic img{
 	margin: auto;
-	max-width: 750px;
+	max-width: 550px;
 	height: 300px;
 	margin-top: 20px;
-	margin-left: 90px;
+	margin-left: 7px;
 }
 #new h2{
 	font-size: 25px;
 	margin-top: 30px;
-	margin-left: 220px;
+	margin-left: 110px;
 }
 
 #new h3{
-	max-width: 730px;
+	max-width: 550px;
 	margin: auto;
 	margin-top: 20px;
-	margin-left: 30px;
+	margin-left: 10px;
 	font-size: 16px;
 	color: #678085;
 }
@@ -458,7 +453,7 @@ margin-top: 10px;
 	flex-direction: column;
 }
 #date p{
-	max-width: 750px;
+	max-width: 550px;
 	margin: auto;
 	font-size: 18px;
 	margin-top: 20px;
@@ -469,7 +464,7 @@ margin-top: 10px;
 	flex-direction: column;
 }
 #date2 p{
-	max-width: 750px;
+	max-width: 550px;
 	margin: auto;
 	font-size: 18px;
 	margin-top: 20px;
@@ -477,21 +472,21 @@ margin-top: 10px;
 }
 #date img{
 	margin: auto;
-	max-width: 750px;
+	max-width: 550px;
 	height: 380px;
 	margin-top: 20px;
-	margin-left: 120px;
+	margin-left: 10px;
 }
 #date2 img{
 	margin: auto;
-	max-width: 750px;
+	max-width: 550px;
 	height: 380px;
 	margin-top: 20px;
-	margin-left: 120px;
+	margin-left: 90px;
 }
 #link1 h2{
 	margin-top: 80px;
-	margin-left: 230px;
+	margin-left: 160px;
 	font-size: 30px;
 	color:#547072;
 }
@@ -504,7 +499,7 @@ margin-top: 10px;
 }
 
 #linkpic img{
-	width: 740px;
+	width: 530px;
 	margin: auto;
 	margin-left: 0px;
 	height: 200px;
@@ -512,10 +507,10 @@ margin-top: 10px;
 }
 #link2 p{
 	margin-left: 20px;
-	max-width: 750px;
-	font-size: 16px;
+	max-width: 530px;
+	font-size: 17px;
 	color: #517251;
-	line-height: 15px;
+	line-height: 17px;
 	margin-top: 10px;
 }
 
@@ -535,7 +530,7 @@ margin-top: 10px;
 }
 
 #linkpic1 img{
-	width: 740px;
+	width: 540px;
 	margin: auto;
 	margin-left: 0px;
 	height: 400px;
@@ -544,11 +539,12 @@ margin-top: 10px;
 
 #link4 p{
 	margin-left: 20px;
-	max-width: 750px;
+	max-width: 550px;
 	font-size: 16px;
 	color: #517251;
 	line-height: 15px;
 	margin-top: 10px;
+	line-height: 20px;
 }
 
 #link5 h2{
@@ -567,7 +563,7 @@ margin-top: 10px;
 }
 
 #linkpic2 img{
-	width: 740px;
+	width: 540px;
 	margin: auto;
 	margin-left: 0px;
 	height: 400px;
@@ -576,11 +572,11 @@ margin-top: 10px;
 #link6{
 	max-width: 1080px;
 	margin: auto;
-	height:340px;
+	height:500px;
 	padding-left: 0px;
 	margin-top: 40px;
-	background: -webkit-linear-gradient(left,#F7F7F7 , rgb(106, 230, 133)); 
-  background: -o-linear-gradient(right, #F7F7F7, rgb(106, 230, 133); ))
+	background: -webkit-linear-gradient(left,#F7F7F7 , rgb(187, 247, 200)); 
+  background: -o-linear-gradient(right, #F7F7F7, rgb(187, 247, 200); ))
 }
 #link6 p{
 	font-size: 17px;
@@ -688,8 +684,9 @@ margin-top: 10px;
 	margin-top: 30px;
 }
 #talk img{
-	max-width: 750px;
-	height: 500px;
+	max-width: 500px;
+	height: 300px;
+	margin-left: 40px;
 	
 }
 
@@ -774,7 +771,7 @@ display: none;
 
 #event1{
 	margin-top: 0px;
-	margin-left: 100px;
+	margin-left: 3px;
 	display: flex;
 	flex-direction: row;
 	height: 20px;
@@ -782,8 +779,8 @@ display: none;
 }
 #event1 p{
 	margin-top: 50px;
-	margin-left: 20px;
-	max-width: 750px;
+	margin-left: 22px;
+	max-width: 550px;
 	height: 50px;
 	display: inline-block;
 	font-size: 20px;
@@ -795,19 +792,19 @@ display: none;
 }
 #event2{
 	margin-top: 30px;
-	margin-left: 70px;
+	margin-left: 0px;
 	display: flex;
 	flex-direction: column;
 	height: 150px;
 	width: 1080px;
 }
 #event2 p{
-	margin-top: 80px;
+	margin-top: 70px;
 	margin-left: 20px;
-	max-width: 750px;
+	max-width: 550px;
 	height: 50px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 18px;
 	color: #547c29;
 }
 #eventpictures{
@@ -815,7 +812,7 @@ display: none;
 	display: flex;
 	flex-direction:column;
 	justify-content: space-between;
-	margin-left: 220px;
+	margin-left: 110px;
 }
 
 #eventpictures img{
@@ -829,19 +826,19 @@ display: none;
 }
 #event3{
 	margin-top: 80px;
-	max-width: 700px;
+	max-width: 550px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
 	padding-left: 8px;
-	height: 140px;
+	height: 110px;
 	border-bottom: solid 2px #8e8e8e;
 }
 #event3 img{
 	margin-right: 0px;
 	margin-top: 0px;
-	width: 120px;
-	height: 120px;
+	width: 100px;
+	height: 100px;
 	display: inline-block;
 }
 
@@ -849,8 +846,8 @@ display: none;
 
 	margin-top: 30px;
 	color: #683a94;
-	font-size: 30px;
-	margin-left: 70px;
+	font-size: 20px;
+	margin-left: 30px;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -865,7 +862,7 @@ display: none;
   	justify-content: space-between;
 	padding-left: 8px;
 	height: 560px;
-	margin-left: 100px;
+	margin-left: 20px;
 }
 #event20 img{
 	margin-right: 20px;
@@ -876,39 +873,23 @@ display: none;
 }
 
 #event21{
-	max-width: 750px;
-	margin: auto;
-	margin-top: 50px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	padding-left: 8px;
-	height: 280px;
-	border-bottom: solid 2px #efefef;
+	display: none;
 }
-#event21 img{
-	margin-right: 20px;
-	margin-top: 0px;
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-}
-
 #paragraph{
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
   	justify-content: space-between;
-	padding-left: 8px;
-	height: 200px;
+	padding-left: 3px;
+	height: 250px;
 	border-bottom: solid 2px #efefef;
 }
 
 #paragraph p{
 	margin-top: 10px;
-	margin-left: 240px;
-	max-width: 750px;
-	height: 300px;
+	margin-left: 180px;
+	max-width: 550px;
+	height: 360px;
 	display: table-row;
 	font-size: 20px;
 	color: #8a9318;
@@ -917,6 +898,7 @@ display: none;
 
 #paragraph .p1{
 		font-size: 15px;
+		line-height: 18px;
 		color:#5b357e;
 		max-width: 1080px;
 		margin-left: 20px;
@@ -930,10 +912,10 @@ display: none;
 	margin-top: 20px;
 }
 #pastEvent1{
-	max-width: 750px;
+	max-width: 550px;
 	margin: auto;
-	margin-left: 150px;
-	height: 480px;
+	margin-left: 60px;
+	height: 330px;
 	margin-top: 30px;
 }
 #logo:hover{
@@ -955,7 +937,7 @@ display: none;
 
 
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 550px){
 
 #mainBody{
 margin:0 auto;
@@ -1208,7 +1190,7 @@ background-color: 	#F7F7F7;
 }
 
 #mainPart img{
-
+	margin-left: 70px;
 	width: 230px;
 	height: 230px;
 	display: inline-block;
@@ -1320,6 +1302,7 @@ background-color: 	#F7F7F7;
 	display: flex;
 	width: 480px;
 	font-size: 15px;
+	margin-left: 150px;
 }
 
 #about{
@@ -1332,7 +1315,7 @@ background-color: 	#F7F7F7;
 	width: 45%;
 	height: 140px;
 	display: inline-block;
-	margin-left: 160px;
+	margin-left: 180px;
 
 }
 #about2 p{
@@ -1353,7 +1336,7 @@ background-color: 	#F7F7F7;
 	width: 45%;
 	height: 140px;
 	display: inline-block;
-	margin-left: 80px;
+	margin-left: 110px;
 
 }
 
@@ -1872,10 +1855,10 @@ margin-top: 15px;
 
 #date img{
 
-	width: 1080px;
+	width: 900px;
 	height: 300px ;
 	display: inline-block;
-	margin-left: 150px;
+	margin: auto;
 }
 #date p{
 	max-width: 1080px;

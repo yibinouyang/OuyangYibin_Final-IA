@@ -4,7 +4,7 @@
 	margin:0 auto;
 	width: 550px;
 	height:1334px;
-	background-color: #e4fafc;
+	background-color: #f7f7f7;
 	}
 #mainBody1{
 	margin:0 auto;
@@ -48,7 +48,10 @@
 	font-family: 'Varela Round', sans-serif;
 }
 
-
+#pastEvent1 video{
+	width: 400px;
+	height: 300px;
+}
 #mainNav ul li a:hover{
 
 }#main111{
@@ -80,8 +83,8 @@
 {
 	color:palevioletred;
 	padding: 7px;
-	background-color:#e4fafc ;
-	font-size: 8px;
+	background-color:#f7f7f7 ;
+	font-size: 13px;
 	font-family: 'Varela Round', sans-serif;
 }
 
@@ -92,11 +95,14 @@
 
 	border-radius: 3px;
 }
+#slide_button:hover{
+	transform: scale(1.3);
+}
 .socialMedia{
 	display: none;
 }
 #copyRight p{
-	color: white;
+	color: grey;
 	max-width: 550px;
 	margin: auto;
 	margin-left: 230px;
@@ -230,6 +236,7 @@ display: none;
 	font-size: 20px;
 	margin-top: 20px;
 	margin-left: 30px;
+	font-family: 'Varela Round', sans-serif;
 }
 
 
@@ -376,18 +383,18 @@ margin-top: 30px;
 }
 
 #salmon p{
-color:pink;
+color:#5b357e;
 display: flex;
 font-size: 18px;
 font-family: 'Varela Round', sans-serif;
 margin-left: 50px;
-width: 500px;
+width: 470px;
 margin-top: 20px;
 }
 
 #salmon{
 	width: 430px;
-	height: 220px;
+	height: 240px;
 	display: inline-block;
 }
 
@@ -399,7 +406,7 @@ margin-top: 20px;
 
 }
 #trout p{
-color: pink;
+color: #5b357e;
 display: flex;
 font-size: 20px;
 font-family: 'Varela Round', sans-serif;
@@ -576,7 +583,6 @@ margin-top: 10px;
 	padding-left: 0px;
 	margin-top: 40px;
 	background: -webkit-linear-gradient(left,#F7F7F7 , rgb(187, 247, 200)); 
-  background: -o-linear-gradient(right, #F7F7F7, rgb(187, 247, 200); ))
 }
 #link6 p{
 	font-size: 17px;
@@ -647,6 +653,11 @@ margin-top: 10px;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
+}
+#Contact{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
 }
 #chart11 img{
 	display: none;
@@ -928,6 +939,9 @@ display: none;
 .icon{
 	display: none;}
 
+#slide_button{
+	cursor:pointer
+}
 
 
 
@@ -936,6 +950,8 @@ display: none;
 
 
 
+
+	
 
 @media screen and (min-width: 550px){
 
@@ -959,7 +975,6 @@ background-color: 	#F7F7F7;
 {
 	display: none;
 }
-
 #logo:hover{
 	transform: scale(1.1);
 	-webkit-transform: scale(1.1);
@@ -1501,10 +1516,10 @@ margin-top: 15px;
 #event1 p{
 	margin-top: 80px;
 	margin-left: 120px;
-	width: 100%;
+	width: 1080px;
 	height: 50px;
 	display: inline-block;
-	font-size: 25px;
+	font-size: 20px;
 	color: #547c29;
 }
 
@@ -1517,12 +1532,12 @@ margin-top: 15px;
 	width: 1080px;
 }
 #event2 p{
+	width: 1080px;
 	margin-top: 0px;
-	margin-left: 120px;
-	width: 100%;
+	margin-left: 100px;
 	height: 30px;
 	display: inline-block;
-	font-size: 25px;
+	font-size: 18px;
 	color: #547c29;
 }
 #eventpictures{
@@ -1894,12 +1909,18 @@ margin-top: 15px;
 #chart11{
 	margin-top: 90px;
 	display: flex;
+	flex-direction: row;
   	justify-content: space-between;
 	border-bottom: solid 3px #DDD;
 	padding-bottom: 40px;
-	padding-left: 60px;
+	padding-left: 10px;
 	height: 310px;
 	margin-left: 0px;
+}
+#Contact{
+	display: flex;
+	flex-direction: column;
+	margin: auto;
 }
 #chart11 img{
 	width: 500px;
@@ -1978,21 +1999,24 @@ input, textarea
 #talk{
 	max-width: 1080px;
 	margin: auto;
-	height: 400px;
+	height: 500px;
 	margin-top: 20px;
 	margin-left: 10px;
 
 }
-
+#pastEvent1 video{
+	width: 400px;
+	height: 300px;
+}
 #talk img{
 	width: 1080px;
 	margin: auto;
-	margin-left: 130px;
+	margin-left: 330px;
 	height: 300px;
 }
 
 #talk p{
-	font-size: 17px;
+	font-size: 21px;
 	color: #6b4d70;
 	margin-top: 60px;
 	max-width: 1080px;
@@ -2034,202 +2058,4 @@ input, textarea
 	margin-top: 10px;
 	margin-left: 220px;
 	width: 580px;
-	height: 300px;
-}
-
-
-
-
-
-
-/*not main*/
-#line1{
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	padding-left: 10px;
-}
-
-#line1 img{
-	width: 20%;
-	height: 80px;
-	margin-top: 30px;
-}
-#line1 p{
-	margin-top: 36px;
-	width: 400px;
-	height: 100px;
-	margin-left: 20px;
-	font-size: 15px;
-}
-
-#line2{
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	padding-left: 10px;
-}
-
-#line2 img{
-	width: 20%;
-	height: 80px;
-	margin-top: 30px;
-}
-#line2 p{
-	margin-top: 36px;
-	width: 400px;
-	height: 100px;
-	margin-left: 20px;
-	font-size: 15px;
-}
-
-#icon5{
-display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-	padding-left: 10px;
-}
-
-#icon5 img{
-	width: 15%;
-	height: 100px;
-	margin-top: 20px;
-}
-#icon5 p{
-	margin-top: 30px;
-	width: 1000px;
-	height: 100px;
-	font-size: 20px;
-	margin-left: 30px;
-}
-
-#FUNDRAISING
-{
-	margin-top: 50px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	border-bottom: solid 2px grey;
-	border-left: solid 2px grey;
-	border-right: solid 2px grey;
-	padding-bottom: 40px;
-	padding-left: 10px;
-	height: 250px;
-}
-
-#part1 p{
-color: black;
-display: row;
-font-size: 16px;
-margin-top: 15px;
-}
-
-#part1{
-	width: 200px;
-	height: 220px;
-	display: inline-block;
-	background-color: #9bbcbc;
-}
-
-#part1 img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-
-}
-#part2 p{
-	margin-top: 15px;
-color: black;
-display: row;
-	 
-}
-
-#part2{
-	background-color: white;
-	width: 200px;
-	height: 220px;
-	display: inline-block;
-		background-color: #9bbcbc;
-}
-
-#part2 img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-
-}#part3 p{
-display: row;
-color: black;
-margin-top: 15px;
-	 
-}
-
-#part3{
-	background-color: white;
-	width: 200px;
-	height: 220px;
-	display: inline-block;
-		background-color: #9bbcbc;
-}
-
-#part3 img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-
-}
-#part4 p{
-color: black;
-display: row;
-font-size: 14px;
-margin-top: 15px;
-
-	 
-}
-
-#part4{
-	background-color: white;
-	width: 200px;
-	height: 220px;
-	display: inline-block;
-		background-color: #9bbcbc;
-}
-
-#part4 img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-
-}
-#part5 p{
-color: black;
-display: row;
-font-size: 14px;
-margin-top: 15px;
-
-
-	 
-}
-
-#part5{
-	background-color: #9bbcbc;
-	width: 200px;
-	height: 220px;
-	display: inline-block;
-
-
-}
-
-#part5 img{
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-
-}
-}
+	height:300px;}

@@ -16,7 +16,7 @@
             <header id="mainHeader">
             <div id="logopart">
                     <img id="logo" src="images/traa_logo1.svg" alt="logo">
-                    <img id="slide_button" onclick="slide_nav()" src="images/1.svg" style="cursor:pointer">
+                    <img id="slide_button" src="images/1.svg" alt="nav_button">
             </div>
             <nav id="mainNav">
                 <h2 class="hidden">mainNav</h2>
@@ -44,17 +44,19 @@
             <div id="chart11">
                 
             <img src="images/new4.jpeg" alt="pic">
-            <form id="contactForm" action="form.php" method="post">
-                    <label for="name">Name: (required)</label>
-                    <input type="text" required id="name" name="fullName" size="40" placeholder="Enter your name">
+            <div id="Contact">
+            <form id="ContactForm" action="form.php" method="post"></form>
+                    <label>Name: (required)</label>
+                    <input type="text" required id="Name" name="fullName" size="40" placeholder="Enter your name">
                     
-                    <label for="email">Phone Num: (require)</label>
-                    <input type="email" required id="email" size="40" placeholder="Enter your Email">
+                    <label>Phone Num: (require)</label>
+                    <input type="email" required id="E-mail" size="40" placeholder="Enter your Email">
                 
-                    <label for="feedback">Feedback:</label>
-                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
-                    <input id="submit" type="submit" value="Submit"></div>
-            </form>
+                    <label>Feedback:</label>
+                    <textarea name="comments" id="Comments" required cols="50" rows="8"></textarea>
+                    <input id="Submit" type="Submit" value="Submit">
+                </div>
+            </div>
 
             <div id="mappart">
                 <p>TRAA General Meeting</p>
@@ -98,7 +100,6 @@
                         <li><a href="PastEvent.html">PastEvent</a></li>
                         <li><a href="Project.html">Project</a></li>
                         <li><a href="Newsletters.html">Newsletters</a></li>
-                        <li><a href="Link.html">Link</a></li>
                         <li><a href="ContactUs.html">Contactus</a></li>
                     </ul></nav>
                 <div id="copyright">
@@ -108,19 +109,19 @@
 				<div class="xdiv" id="xdiv">X</div>
 			</div>
 			
-    		<form id="contactForm" action="form.php" method="post">
-                    <label for="name">Name: (required)</label>
+    		<form id="contactForm" action="form.php" method="post"></form>
+                    <label>Name: (required)</label>
                     <input type="text" required id="name" name="fullName" size="40" placeholder="Enter your name">
                     
-                    <label for="email">Email: (require)</label>
+                    <label>Email: (require)</label>
                     <input type="email" required id="email" size="40" placeholder="Enter your Email">
                 
-                    <label for="feedback">Feedback:</label>
+                    <label>Feedback:</label>
                     <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>
                     <input id="submit" type="submit" value="Submit"></div>
-            </form>
-    </div>
-    <script src="js/main.js"></script>    
+           
+    <script src="js/third.js"></script>
+    <script src="js/main.js"></script>     
     <script src="js/second.js"></script>    
         </body>
     </html>
